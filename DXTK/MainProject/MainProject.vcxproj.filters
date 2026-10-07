@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{47974e81-ff42-4d0c-8227-fa99f8c69fd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{29c1d6e3-875e-4d01-a01d-0974e170e5c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{d7d56ad3-60f4-40ad-b499-8133f5f75990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\DX">
+      <UniqueIdentifier>{57861352-b6ac-419f-9d1f-561d5941eabd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Gamepad">
+      <UniqueIdentifier>{dd2f8020-b24e-404b-ba9d-a2f2061ada4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Toolkit">
+      <UniqueIdentifier>{df0d2a90-74be-4d38-a257-3fe37d2e7015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{b65497f3-36e6-4ad3-a2ec-a9bfaea5677d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{8fe4f479-06b8-4f8b-b14a-06a316d5240f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Object">
+      <UniqueIdentifier>{8a26ea37-1d0e-4596-9e87-9859189d7221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Graphics">
+      <UniqueIdentifier>{b51bed49-9043-42dc-a7fe-ae0d3532b1e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\System">
+      <UniqueIdentifier>{5e4c0b3c-c635-4d6b-8f00-d23063889490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Physics">
+      <UniqueIdentifier>{8f939a86-294b-4b59-9651-b10b9ca7c32b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Entity">
+      <UniqueIdentifier>{3755d6b8-0ad7-4e83-95a2-fe97a3ba5a53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Base\pch.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\GameBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\DX\StepTimer.h">
+      <Filter>Base\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\DX\d3dx12.h">
+      <Filter>Base\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\DontDestroyOnLoad.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\MainScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SceneFactory.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\dxtk.h">
+      <Filter>Base\Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\wiGamepad\CommonInclude.h">
+      <Filter>Base\Gamepad</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\wiGamepad\wiColor.h">
+      <Filter>Base\Gamepad</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\wiGamepad\wiGamepad.h">
+      <Filter>Base\Gamepad</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\wiGamepad\wiInput.h">
+      <Filter>Base\Gamepad</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\wiGamepad\wiMath.h">
+      <Filter>Base\Gamepad</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\wiGamepad\wiPlatform.h">
+      <Filter>Base\Gamepad</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\wiGamepad\wiRawGamepad.h">
+      <Filter>Base\Gamepad</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\wiGamepad\wiVector.h">
+      <Filter>Base\Gamepad</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\wiGamepad\wiXInput.h">
+      <Filter>Base\Gamepad</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Toolkits\DXTKCamera.h">
+      <Filter>Base\Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Toolkits\DXTKHelpers.h">
+      <Filter>Base\Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Toolkits\DXTKMathematics.h">
+      <Filter>Base\Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Toolkits\InputSystem.h">
+      <Filter>Base\Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\TestScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imconfig.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imgui.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imgui_impl_dx12.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imgui_impl_win32.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imgui_internal.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imstb_rectpack.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imstb_textedit.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imstb_truetype.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\ImGuiManager.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\StageManager.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\StageBlock.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\StageData.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Entity\PlayerModel.h">
+      <Filter>Classes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Graphics\ModelManager.h">
+      <Filter>Classes\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Object\GameObject.h">
+      <Filter>Classes\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Object\PrimitiveManager.h">
+      <Filter>Classes\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Physics\CollisionManager.h">
+      <Filter>Classes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\System\CameraController.h">
+      <Filter>Classes\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\System\PlayerInput.h">
+      <Filter>Classes\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Physics\PhysicsManager.h">
+      <Filter>Classes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Physics\PhysicsConstants.h">
+      <Filter>Classes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Physics\CollisionData.h">
+      <Filter>Classes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Physics\CollisionDetector.h">
+      <Filter>Classes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Physics\CollisionResolver.h">
+      <Filter>Classes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Object\Component.h">
+      <Filter>Classes\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Object\PrimitiveRendererComponent.h">
+      <Filter>Classes\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Object\ColliderComponent.h">
+      <Filter>Classes\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Object\RigidbodyComponent.h">
+      <Filter>Classes\Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Base\Main.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\pch.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\GameBase.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\MainScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\wiGamepad\wiGamepad.cpp">
+      <Filter>Base\Gamepad</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\wiGamepad\wiMath.cpp">
+      <Filter>Base\Gamepad</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\wiGamepad\wiRawGamepad.cpp">
+      <Filter>Base\Gamepad</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\wiGamepad\wiXInput.cpp">
+      <Filter>Base\Gamepad</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\Toolkits\DXTKCamera.cpp">
+      <Filter>Base\Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\TestScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_demo.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_draw.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_impl_dx12.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_impl_win32.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_tables.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_widgets.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\StageBlock.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\StageData.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Entity\PlayerModel.cpp">
+      <Filter>Classes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Graphics\ModelManager.cpp">
+      <Filter>Classes\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Object\GameObject.cpp">
+      <Filter>Classes\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Object\PrimitiveManager.cpp">
+      <Filter>Classes\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Physics\CollisionManager.cpp">
+      <Filter>Classes\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\System\CameraController.cpp">
+      <Filter>Classes\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\System\PlayerInput.cpp">
+      <Filter>Classes\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Physics\PhysicsManager.cpp">
+      <Filter>Classes\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Physics\CollisionDetector.cpp">
+      <Filter>Classes\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Physics\CollisionResolver.cpp">
+      <Filter>Classes\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Object\PrimitiveRendererComponent.cpp">
+      <Filter>Classes\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Object\ColliderComponent.cpp">
+      <Filter>Classes\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Object\RigidbodyComponent.cpp">
+      <Filter>Classes\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\ImGuiManager.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\directx.ico">
+      <Filter>Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource\resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="Resource\settings.manifest">
+      <Filter>Resource</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

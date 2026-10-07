@@ -1,0 +1,227 @@
+{
+    "objects": [
+        {
+            "components": [
+                {
+                    "PrimitiveRendererComponent": {
+                        "shape": 0,
+                        "texture": "Tiles.png"
+                    }
+                },
+                {
+                    "ColliderComponent": {
+                        "type": 1
+                    }
+                },
+                {
+                    "RigidbodyComponent": {
+                        "angularDamping": 1.0,
+                        "angularVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "friction": 0.800000011920929,
+                        "isStatic": true,
+                        "linearDamping": 0.5,
+                        "restitution": 0.20000000298023224,
+                        "useGravity": true,
+                        "velocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            ],
+            "name": "Floor",
+            "position": [
+                0.0,
+                -1.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                50.0,
+                1.0,
+                50.0
+            ],
+            "type": "GameObject"
+        },
+        {
+            "components": [
+                {
+                    "PrimitiveRendererComponent": {
+                        "shape": 0,
+                        "texture": "Tiles.png"
+                    }
+                },
+                {
+                    "ColliderComponent": {
+                        "type": 2
+                    }
+                },
+                {
+                    "RigidbodyComponent": {
+                        "angularDamping": 1.0,
+                        "angularVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "friction": 0.800000011920929,
+                        "isStatic": true,
+                        "linearDamping": 0.5,
+                        "restitution": 0.20000000298023224,
+                        "useGravity": true,
+                        "velocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            ],
+            "name": "FallingCube",
+            "position": [
+                -0.9321905374526978,
+                0.048605289310216904,
+                0.87454754114151
+            ],
+            "rotation": [
+                -0.0,
+                -0.0,
+                -0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "type": "GameObject"
+        },
+        {
+            "components": [
+                {
+                    "PrimitiveRendererComponent": {
+                        "shape": 0,
+                        "texture": "BrickTiles.png"
+                    }
+                },
+                {
+                    "RigidbodyComponent": {
+                        "angularDamping": 1.0,
+                        "angularVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "friction": 0.800000011920929,
+                        "isStatic": true,
+                        "linearDamping": 0.5,
+                        "restitution": 0.20000000298023224,
+                        "useGravity": true,
+                        "velocity": [
+                            0.0,
+                            5.820000171661377,
+                            0.0
+                        ]
+                    }
+                },
+                {
+                    "ColliderComponent": {
+                        "type": 1
+                    }
+                }
+            ],
+            "name": "Object_1",
+            "position": [
+                0.0,
+                1.4420000314712524,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "type": "GameObject"
+        },
+        {
+            "components": [],
+            "name": "Object_2",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "type": "GameObject"
+        },
+        {
+            "components": [
+                {
+                    "PrimitiveRendererComponent": {
+                        "shape": 1,
+                        "texture": "BrickTiles.png"
+                    }
+                }
+            ],
+            "name": "omori",
+            "position": [
+                0.0,
+                4.099999904632568,
+                0.0
+            ],
+            "rotation": [
+                0.3490658402442932,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                4.150000095367432
+            ],
+            "type": "GameObject"
+        },
+        {
+            "components": [],
+            "name": "Object_4",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "type": "GameObject"
+        }
+    ]
+}
